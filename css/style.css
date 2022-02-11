@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Dosis:wght@300&family=Knewave&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 29px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtop {
+    align-items: center;
+    background:transparent;
+    justify-content: flex-end;
+}
+
+
+
+.navtopleft{
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.menutop2{
+    font-family: 'Cairo', sans-serif;
+    color:rgb(5, 5, 5);
+    text-decoration:none; 
+    margin-right: 5px;
+    border: 1px white dashed;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform:uppercase;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center; 
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.menutop{
+   text-align: center;
+   text-decoration:none; 
+   font-size: 20px;
+   color:black;
+   font-family: 'Dosis', sans-serif;
+   font-weight: bold;
+}
+
+.navtopcenter{
+    font-family: 'Knewave', cursive;
+    font-size: 35px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
+.slider{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/slider.png");
+    position: relative;
+}
+
+.terreGif{
+    filter: drop-shadow(0px 0px 20px rgb(255, 255, 255)) invert(0%);
+    height: 500px;
+    margin-right: 99px;
+    margin-top: 79px;
+    
+}
+
+.blocTxt{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.slidertitle{
+    font-family: 'Dosis', sans-serif;
+    font-size: 135px;
+    color: white;
+    padding-top: 80px;
+    width: 350px; 
+}
+
+.slidertitle:hover{
+    color: black;
+}
+
+.slidertitle2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    color: white;
+    padding-bottom: 18px;
+}
+
+
+.slidertxt{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.boutton{
+    margin-left: 30px;
+    padding-right: 30px;
+    padding: 15px;
+    display: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #ffffff27 33.33%, #0000008a 33.33%);
+    border: 2px solid white;
+}
+
+.boutton:hover{
+    filter: drop-shadow(0px 0px 20px rgb(255, 255, 255)) invert(0%);
+}
+
+
+.title3{
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 18px;
+}
+
+.txt{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 400px;
+    padding-right:500px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.txtImg{
+    float: right;
+    margin-right: 45px;
+    width: 400px;
+    height: 400px;
+}
+
+.txt2{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-left: 400px;
+        padding-right:500px;
+        text-align: justify;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+.txt3{
+        font-family: 'Dosis', sans-serif;
+        font-size: 20px;
+        padding-left: 400px;
+        padding-right:500px;
+        text-align: justify;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+.title4{
+    text-align:center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    padding-top:75px;
+    margin-right: 425px;
+
+}
+
+.bluebook{
+    float: left;
+    margin-left: 45px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.card{
+    margin-top: 135px;
+    margin-right:70px;
+    float: right;
+    margin-left: 45px;
+    width: 325px;
+    height: 200px;
+    border: 2px dashed white;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 20px rgb(255, 255, 255)) invert(0%);
+
+}
+
+
+.livrejaune{
+    background: linear-gradient(13deg, rgba(2,0,36,1) 14%, rgb(21, 125, 223) 97%);
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+
+.video{
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
